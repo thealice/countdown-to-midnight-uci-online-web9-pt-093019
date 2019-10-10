@@ -1,8 +1,7 @@
 def countdown(number)
-  if number > 0 
+  until number == 0 
     puts "#{number} SECOND(S)!"
     number -= 1
-  else
-    puts "HAPPY NEW YEAR!"
   end
+    puts "HAPPY NEW YEAR!"
 end
